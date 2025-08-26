@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+}
+
+header nav a {
+  margin: 0 15px;
+  color: #0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-shadow: 0 0 8px #0ff;
+}
+
+.hero {
+  padding: 100px 20px;
+}
+
+.neon-text {
+  color: #0ff;
+  font-size: 2.5em;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background: #0ff;
+  color: #000;
+  border-radius: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00cccc;
+}
+
+.produits {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.produit {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px #0ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea, form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
